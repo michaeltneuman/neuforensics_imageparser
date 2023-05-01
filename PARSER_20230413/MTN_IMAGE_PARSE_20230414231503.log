@@ -1,0 +1,67 @@
+2023-04-14 23:15:03,911 | INFO | Log file MTN_IMAGE_PARSE_20230414231503.log created.
+2023-04-14 23:15:03,914 | INFO | --image: C:\Users\micha\OneDrive\Desktop\MICHAELNEUMAN_IMAGEPARSER\test_output_directory\Image\CDRIVE_202303141137.E01	--tools: C:\Users\micha\OneDrive\Desktop\PARSER_20230413\tools\	--output: C:\Users\micha\OneDrive\Desktop\PARSER_20230413\output\
+2023-04-14 23:15:10,275 | INFO | Drive letters found: {'C:\\', 'E:\\'}
+2023-04-14 23:15:15,283 | INFO | Drive letters found: {'C:\\', 'D:\\', 'E:\\'}
+2023-04-14 23:15:15,283 | INFO | Image mounted to D:\
+2023-04-14 23:15:15,284 | INFO | NTFS Image file successfully mounted, beginning tool execution.
+2023-04-14 23:15:15,284 | INFO | Copying D:\users\micha\AppData\Local\Microsoft\Windows\UsrClass.dat to local directory...
+2023-04-14 23:15:15,350 | INFO | Copying D:\users\micha\AppData\Local\Microsoft\Windows\UsrClass.dat.log2 to local directory...
+2023-04-14 23:15:15,429 | INFO | Copying D:\users\micha\NTUSER.dat.log1 to local directory...
+2023-04-14 23:15:15,508 | INFO | Copying D:\users\micha\AppData\Local\Microsoft\Windows\UsrClass.dat.log1 to local directory...
+2023-04-14 23:15:15,625 | INFO | Copying D:\users\micha\NTUSER.dat to local directory...
+2023-04-14 23:15:15,694 | INFO | Copying D:\users\micha\NTUSER.dat.log2 to local directory...
+2023-04-14 23:15:15,795 | WARNING | MFTECmd.exe not installed, downloading...
+2023-04-14 23:15:15,796 | INFO | Downloading https://f001.backblazeb2.com/file/EricZimmermanTools/net6/MFTECmd.zip to C:\Users\micha\OneDrive\Desktop\PARSER_20230413\tools\temp.zip
+2023-04-14 23:15:17,035 | INFO | Download complete.
+2023-04-14 23:15:17,035 | INFO | Unzipping C:\Users\micha\OneDrive\Desktop\PARSER_20230413\tools\temp.zip to C:\Users\micha\OneDrive\Desktop\PARSER_20230413\tools\...
+2023-04-14 23:15:17,072 | INFO | Unzip complete.
+2023-04-14 23:15:17,074 | INFO | Deleting original file C:\Users\micha\OneDrive\Desktop\PARSER_20230413\tools\temp.zip...
+2023-04-14 23:15:17,075 | INFO | Original file deleted.
+2023-04-14 23:15:17,075 | INFO | MFTECmd.exe downloaded and installed.
+2023-04-14 23:15:17,075 | INFO | Executing C:\Users\micha\OneDrive\Desktop\PARSER_20230413\tools\MFTECmd.exe...
+2023-04-14 23:15:17,076 | INFO | ['C:\\Users\\micha\\OneDrive\\Desktop\\PARSER_20230413\\tools\\MFTECmd.exe', '-f', 'D:\\$mft', '--csv', 'C:\\Users\\micha\\OneDrive\\Desktop\\PARSER_20230413\\output\\', '--csvf', 'temp.csv']
+2023-04-14 23:17:07,262 | INFO | Execution complete. Parsing output to Excel file...Creating new sheet...Opening csv file and reading rows...
+2023-04-14 23:17:07,280 | INFO | Headers = ['EntryNumber', 'SequenceNumber', 'InUse', 'ParentEntryNumber', 'ParentSequenceNumber', 'ParentPath', 'FileName', 'Extension', 'FileSize', 'ReferenceCount', 'ReparseTarget', 'IsDirectory', 'HasAds', 'IsAds', 'SI<FN', 'uSecZeros', 'Copied', 'SiFlags', 'NameType', 'Created0x10', 'Created0x30', 'LastModified0x10', 'LastModified0x30', 'LastRecordChange0x10', 'LastRecordChange0x30', 'LastAccess0x10', 'LastAccess0x30', 'UpdateSequenceNumber', 'LogfileSequenceNumber', 'SecurityId', 'ObjectIdFileDroid', 'LoggedUtilStream', 'ZoneIdContents']
+2023-04-14 23:17:07,848 | INFO | 50000 rows chunked.
+2023-04-14 23:17:17,460 | INFO | 100000 rows chunked.
+2023-04-14 23:17:26,048 | INFO | 150000 rows chunked.
+2023-04-14 23:17:30,004 | WARNING | Removed bad character from row 126264
+2023-04-14 23:17:30,004 | WARNING | Removed bad character from row 126333
+2023-04-14 23:17:30,014 | WARNING | Removed bad character from row 126376
+2023-04-14 23:17:30,014 | WARNING | Removed bad character from row 126415
+2023-04-14 23:17:33,880 | INFO | 200000 rows chunked.
+2023-04-14 23:17:41,170 | INFO | 250000 rows chunked.
+2023-04-14 23:17:48,268 | INFO | 300000 rows chunked.
+2023-04-14 23:17:55,870 | INFO | 350000 rows chunked.
+2023-04-14 23:18:04,074 | INFO | 400000 rows chunked.
+2023-04-14 23:18:12,176 | INFO | 450000 rows chunked.
+2023-04-14 23:18:20,902 | INFO | 500000 rows chunked.
+2023-04-14 23:18:26,600 | INFO | Max rows reached! Creating new sheet MFT2
+2023-04-14 23:18:27,073 | INFO | 550000 rows chunked.
+2023-04-14 23:18:37,726 | INFO | 600000 rows chunked.
+2023-04-14 23:18:46,033 | INFO | 650000 rows chunked.
+2023-04-14 23:18:53,415 | INFO | 700000 rows chunked.
+2023-04-14 23:19:21,538 | INFO | 750000 rows chunked.
+2023-04-14 23:19:29,052 | INFO | 800000 rows chunked.
+2023-04-14 23:19:37,468 | INFO | 850000 rows chunked.
+2023-04-14 23:20:46,872 | INFO | 900000 rows chunked.
+2023-04-14 23:20:56,206 | INFO | 950000 rows chunked.
+2023-04-14 23:21:03,322 | INFO | 1000000 rows chunked.
+2023-04-14 23:21:09,226 | INFO | Max rows reached! Creating new sheet MFT3
+2023-04-14 23:21:11,055 | INFO | 1050000 rows chunked.
+2023-04-14 23:22:51,747 | INFO | 1100000 rows chunked.
+2023-04-14 23:22:57,609 | INFO | 1150000 rows chunked.
+2023-04-14 23:23:03,238 | INFO | 1200000 rows chunked.
+2023-04-14 23:23:09,764 | INFO | 1250000 rows chunked.
+2023-04-14 23:23:15,889 | INFO | 1300000 rows chunked.
+2023-04-14 23:23:21,998 | INFO | 1350000 rows chunked.
+2023-04-14 23:26:56,362 | INFO | 1400000 rows chunked.
+2023-04-14 23:27:02,487 | INFO | 1450000 rows chunked.
+2023-04-14 23:27:08,328 | INFO | 1500000 rows chunked.
+2023-04-14 23:27:14,949 | INFO | Max rows reached! Creating new sheet MFT4
+2023-04-14 23:27:15,490 | INFO | 1550000 rows chunked.
+2023-04-14 23:27:23,342 | INFO | 1600000 rows chunked.
+2023-04-14 23:27:31,709 | INFO | 1650000 rows chunked.
+2023-04-14 23:32:44,538 | INFO | 1700000 rows chunked.
+2023-04-14 23:32:55,960 | INFO | MFT FINISHED! 1732418 total rows written to workbook.
+2023-04-14 23:32:55,976 | INFO | Saving workbook...
